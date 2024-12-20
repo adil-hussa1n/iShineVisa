@@ -1,0 +1,79 @@
+/* Visa Types Section */
+.visa-types-section {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.visa-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visa-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.visa-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.visa-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.visa-requirement {
+  margin-top: 10px;
+}
+
+.visa-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0056b3;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.visa-button:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.requirement-list {
+  list-style: disc;
+  margin-left: 20px;
+  color: #555;
+  font-size: 0.8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .visa-card {
+    margin-bottom: 20px;
+  }
+
+  .visa-title {
+    font-size: 1.5rem;
+  }
+
+  .visa-description {
+    font-size: 0.95rem;
+  }
+}

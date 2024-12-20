@@ -1,0 +1,43 @@
+.hero-container {
+  background-image: url("../../assects/Hero.jpg"); /* Replace with your own hero image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

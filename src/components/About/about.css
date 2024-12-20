@@ -1,0 +1,45 @@
+/* General Section Styling */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Why Choose Us - Icons */
+.icon-container {
+  background-color: #f1f9ff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Responsive Spacing */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-description {
+    font-size: 1rem;
+  }
+}

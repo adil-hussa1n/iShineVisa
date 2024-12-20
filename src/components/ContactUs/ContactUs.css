@@ -1,0 +1,75 @@
+/* Contact Us Page */
+.contact-us-page {
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.contact-form-wrapper,
+.contact-info-wrapper {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-wrapper .form-title,
+.contact-info-wrapper .info-title {
+  font-size: 1.trem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #0056b3;
+}
+label {
+  font-size: 1rem;
+}
+.contact-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact-form .btn {
+  background-color: #0056b3;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form .btn:hover {
+  background-color: #004494;
+}
+
+.contact-info {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.map iframe {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .contact-form .btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+  }
+}
